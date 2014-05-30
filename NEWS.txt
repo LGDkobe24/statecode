@@ -1,0 +1,12 @@
+0.4
+===
+
+* Complete FIPS104 codes (thanks to Andy Halterman)
+
+0.3
+===
+
+* More CoW numeric codes 
+* Bug with loner numeric input
+
+
