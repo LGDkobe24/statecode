@@ -22,7 +22,7 @@ def statecode(codes=['Alabama', 'Arizona'], origin='state', target='abbreviation
         'state' or 'abbreviation'
     '''
 
-    if type(codes) is not list:
+    if type(codes) not in [list, pd.core.series.Series]:
         codes = [codes]
     if origin is 'state':
         origin = 'regex'
